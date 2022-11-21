@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="responsive2.css">
+    <script src="responsive2.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Know About Motorcycles</h1>
+            <h2>Have a look at what are the features of different bikes available in the market</h2>
+        </div>
+    </header>
+
+    
+    <div class="text">
+        <p id="demo">Which Bike do you want to know about?</p>
+        
+        <select name="choose" id="bike">
+            <option value="Bajaj">Choose a Bike</option>
+            <option value="Pulsar 150">Pulsar 150</option>
+            <option value="Pulsar NS 160">Pulsar NS 160</option>
+            <option value="Pulsar NS 200">Pulsar NS 200</option>
+            <option value="Dominar 250">Dominar 250</option>
+            <option value="Dominar 400">Dominar 400</option>
+        </select>
+        <button id="btn" onclick="myfunc_btn()">Search</button>
+    </div>
+
+    <div class="NS" style="display: flex; flex-direction: row; align-items: center; justify-content: space-evenly;">
+        <img src="PIC/pulsar150.jpg" alt="" id="img">
+        <img src="PIC/NS160.jpg" alt="" id="img1">
+        <img src="PIC/ns200.jpg" alt="" id="img2">
+        <img src="PIC/dominar250.jpg" alt="" id="img3">
+        <img src="PIC/dominar400.jpg" alt="" id="img4">
+        
+        <div class="container">
+            <table id="ns200">
+                <tr>
+                    <td>Emission Type&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;BS6 Engine</td>  
+                </tr>
+                <tr>
+                    <td>Displ.&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;199.5cc</td>
+                </tr>
+                <tr>
+                    <td>Mileage&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;40.84 kmpl</td>
+                </tr> 
+                <tr>
+                    <td>Max Power&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;24.5 PS @ 9750 rpm</td>
+                </tr>
+                <tr>
+                    <td>Fuel Type&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;Petrol</td>
+                </tr>
+                <tr>
+                    <td>ABS&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;Single Channel</td>
+                </tr>
+                <tr>
+                    <td>Wheels Type&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;Alloy</td>
+                </tr>
+                <tr>
+                    <td>Tyre Type&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;Tubeless</td>
+                </tr>
+            </table>
+
+
+            <table id="ns160">
+                <tr>
+                    <td>Emission Type&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;BS6 Engine</td>  
+                </tr>
+                <tr>
+                    <td>Displ.&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;159cc</td>
+                </tr>
+                <tr>
+                    <td>Mileage&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;30.84 kmpl</td>
+                </tr> 
+                <tr>
+                    <td>Max Power&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;19.5 PS @ 9750 rpm</td>
+                </tr>
+                <tr>
+                    <td>Fuel Type&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;Petrol</td>
+                </tr>
+                <tr>
+                    <td>ABS&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;NO ABS</td>
+                </tr>
+                <tr>
+                    <td>Wheels Type&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;Alloy</td>
+                </tr>
+                <tr>
+                    <td>Tyre Type&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;Tubeless</td>
+                </tr>
+            </table>
+
+
+            <table id="pulsar150">
+                <tr>
+                    <td>Emission Type&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;BS6 Engine</td>  
+                </tr>
+                <tr>
+                    <td>Displ.&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;159cc</td>
+                </tr>
+                <tr>
+                    <td>Mileage&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;30.84 kmpl</td>
+                </tr> 
+                <tr>
+                    <td>Max Power&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;19.5 PS @ 9750 rpm</td>
+                </tr>
+                <tr>
+                    <td>Fuel Type&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;Petrol</td>
+                </tr>
+                <tr>
+                    <td>ABS&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;NO ABS</td>
+                </tr>
+                <tr>
+                    <td>Wheels Type&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;Alloy</td>
+                </tr>
+                <tr>
+                    <td>Tyre Type&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;Tubeless</td>
+                </tr>
+            </table>
+
+            <table id="dominar250">
+                <tr>
+                    <td>Emission Type&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;BS6 Engine</td>  
+                </tr>
+                <tr>
+                    <td>Displ.&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;159cc</td>
+                </tr>
+                <tr>
+                    <td>Mileage&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;30.84 kmpl</td>
+                </tr> 
+                <tr>
+                    <td>Max Power&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;19.5 PS @ 9750 rpm</td>
+                </tr>
+                <tr>
+                    <td>Fuel Type&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;Petrol</td>
+                </tr>
+                <tr>
+                    <td>ABS&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;NO ABS</td>
+                </tr>
+                <tr>
+                    <td>Wheels Type&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;Alloy</td>
+                </tr>
+                <tr>
+                    <td>Tyre Type&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;Tubeless</td>
+                </tr>
+            </table>
+
+            <table id="dominar400">
+                <tr>
+                    <td>Emission Type&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;BS6 Engine</td>  
+                </tr>
+                <tr>
+                    <td>Displ.&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;373.3cc</td>
+                </tr>
+                <tr>
+                    <td>No. of Cylinders&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;1</td>
+                </tr> 
+                <tr>
+                    <td>Max Power&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;40 PS @ 8800 rpm</td>
+                </tr>
+                <tr>
+                    <td>Fuel Type&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;Petrol</td>
+                </tr>
+                <tr>
+                    <td>Gear Box&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;6 Speed</td>
+                </tr>
+                <tr>
+                    <td>ABS&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;Dual Channel</td>
+                </tr>
+                <tr>
+                    <td>Wheels Type&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;Alloy</td>
+                </tr>
+                <tr>
+                    <td>Tyre Type&nbsp;&nbsp;</td>
+                    <td>:</td>
+                    <td>&nbsp;&nbsp;Tubeless</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <p> &copy; All rights reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
